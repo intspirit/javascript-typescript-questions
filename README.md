@@ -10,7 +10,7 @@ Each question is contained in a separate file.
 
 In the comment to the question there is a link to an explanation of the problem. Even if you answered the question correctly, it is recommended to read the explanation, because it may reveal additional interesting details.
 
-## Example.
+## Example
 
 ```
 function log(arg) {
@@ -39,7 +39,7 @@ log('a', 'b', 'c');
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
 ```
 
-## Categories of questions.
+## Categories of questions
 
 The repository is live and will be regularly updated with new challenges. The repository currently contains questions in the following categories:
 
@@ -72,4 +72,4 @@ The repository is live and will be regularly updated with new challenges. The re
 
 Let's learn the language we use every day.
 
-#### Let's make IT better!
+### Let's make IT better!
