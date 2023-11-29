@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <link rel="preload" href='./bg.jpeg' />
+  </head>
+  <body>
+    <script>
+      setTimeout(() => {
+        const img = document.createElement('img');
+        img.src = './bg.jpeg';
+        document.body.appendChild(img);
+      }, 1000);
+    </script>
+  </body>
+</html>
+
+<!-- When will the browser download the image? -->
+
+<!-- Try yourself and read the explanation: https://t.me/intspirit/819?comment=1104 -->
