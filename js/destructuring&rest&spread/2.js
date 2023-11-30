@@ -1,7 +1,7 @@
-function getFruits(fruitList, ...args, favorite) {
-  return [...fruitList, ...args, favorite];
+function getFruits(...fruitsList, favorite) {
+  return favorite;
 }
 
-console.log(getFruits(['apple', 'banana'], 'orange', 'pear'));
+console.log(getFruits('apple', 'banana', 'orange'));
 
 // What will be the output?
