@@ -9,3 +9,5 @@ const data = JSON.stringify(user, ['name', 'age']);
 console.log(data);
 
 // What will be the output?
+
+// Try yourself and read the explanation: https://t.me/intspirit/894?comment=1288
