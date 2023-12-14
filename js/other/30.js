@@ -21,3 +21,4 @@ console.log(data);
 
 // What will be the output?
 
+// Try yourself and read the explanation: https://t.me/intspirit/896?comment=1293
