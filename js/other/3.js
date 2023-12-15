@@ -1,13 +1,15 @@
-const user = {
-  name: 'Alex',
-  age: 35,
-  email: 'alex@gmail.com'
-};
+const el = document.getElementById('box'); // div with text
+const body = document.body;
 
-const data = JSON.stringify(user, ['name', 'age']);
+let i = 1;
+const observer = new ResizeObserver((entries) => {
+  const curFontSize = getComputedStyle(body).fontSize;
+  body.style.fontSize = parseInt(curFontSize) + i + 'px';
+  i++;
+});
 
-console.log(data);
+observer.observe(el);
 
-// What will be the output?
+// How many times will the ResizeObserver callback be called?
 
-// Try yourself and read the explanation: https://t.me/intspirit/894?comment=1288
+// Try yourself and read the explanation: https://t.me/intspirit/857?comment=1206
