@@ -1,10 +1,5 @@
-class Animal {}
-function Bird() {}
+function MyFunc() {}
 
-const animal = new Animal();
-const bird = new Bird();
-
-console.log(animal.toString === Object.prototype.toString);
-console.log(bird.toString === Object.prototype.toString);
+console.log(Object.getPrototypeOf(MyFunc.prototype));
 
 // What will be the output?
