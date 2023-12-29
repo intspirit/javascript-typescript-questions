@@ -1,10 +1,10 @@
-function areYouSenior() {
-  return 'Oh yes';
+function myFunc() {
+  return 'hello';
 }
 
-const canYouSolveThis = () => 'sure';
+const myArrowFunc = () => 'hello';
 
-console.log(areYouSenior.prototype);
-console.log(canYouSolveThis.prototype);
+console.log(Object.hasOwn(myFunc.prototype, 'constructor'));
+console.log(Object.hasOwn(myArrowFunc.prototype, 'constructor'));
 
 // What will be the output?
