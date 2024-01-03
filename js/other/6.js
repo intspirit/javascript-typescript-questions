@@ -1,9 +1,14 @@
-function argsToString(...args) {
-  const foo = args.join(',');
-  const bar = arguments.join(',');
-  return foo === bar;
+function timer() {
+  for (let i = 0; i < 10_000_000; i++) {}
+  setTimeout(timer, 100);
 }
+timer();
 
-console.log(argsToString(1, 2, 3));
+function inerval() {
+  for (let i = 0; i < 100_000_000; i++) {}
+}
+setInterval(inerval, 100);
 
-// What will be the output?
+// Which function takes the longest time between calls?
+
+// Try yourself and read the explanation: https://t.me/intspirit/802?comment=1069
