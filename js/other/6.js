@@ -1,12 +1,9 @@
 function argsToString(...args) {
-  return args.join(',');
-}
-
-function argumentsToString() {
-  return arguments.join(',');
+  const foo = args.join(',');
+  const bar = arguments.join(',');
+  return foo === bar;
 }
 
 console.log(argsToString(1, 2, 3));
-console.log(argumentsToString(1, 2, 3));
 
 // What will be the output?
