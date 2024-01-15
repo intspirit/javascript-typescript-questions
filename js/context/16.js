@@ -1,15 +1,13 @@
+globalThis.x = 'foo';
+
 function foo() {
-  this.num = 1;
+  this.x = 'bar';
 
   return () => {
-    return () => {
-      return this.num;
-    }
+    return this.x;
   }
 }
 
-const func = foo()();
-
-console.log(func());
+console.log(foo()(), globalThis.x);
 
 // What will be the output?
