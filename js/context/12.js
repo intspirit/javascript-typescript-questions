@@ -1,8 +1,9 @@
+'use strict';
+
 const user = {
   name: 'Alex',
-  age: 25,
   printUser: () => {
-    return `${this.name, this.age}`
+    return `User: ${this.name}`
   }
 }
 
