@@ -11,3 +11,5 @@ console.log(foo);
 console.log(bar);
 
 // What will be the output?
+
+// Try yourself and read the explanation: https://t.me/intspirit/926?comment=1365
