@@ -1,19 +1,7 @@
-export let num = 5;
+let thing = 'initial';
 
-console.log('module.js');
+setTimeout(() => {
+  thing = 'changed';
+}, 500);
 
-new Promise((resolve) => {
-  setTimeout(() => {
-    console.log('module.js: promise 1');
-    num = 10;
-    resolve();
-  }, 1000);
-});
-
-new Promise((resolve) => {
-  setTimeout(() => {
-    console.log('module.js: promise 2');
-    num = 20;
-    resolve();
-  }, 2000);
-});
+export default thing;

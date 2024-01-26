@@ -1,7 +1,13 @@
-import { num } from './module1.js';
+let foo, bar;
 
-console.log(num);
+await (async () => {
+ ({ foo } = await import('./module.js'));
+})();
 
-setTimeout(() => console.log(num), 100);
+console.log(foo);
+
+({ bar } = await import('./module.js'));
+
+console.log(bar);
 
 // What will be the output?
