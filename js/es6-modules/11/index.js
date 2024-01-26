@@ -1,6 +1,6 @@
 let foo, bar;
 
-await (async () => {
+(async () => {
  ({ foo } = await import('./module.js'));
 })();
 
