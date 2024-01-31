@@ -1,7 +1,7 @@
-var bar = function foo() {}
+let bar = function foo() {
+  return new Object();
+}
 
-console.log(bar === foo);
-
-function baz() {}
+console.log(bar() === foo());
 
 // What will be the output?
