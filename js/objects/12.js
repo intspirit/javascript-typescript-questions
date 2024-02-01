@@ -16,3 +16,5 @@ const clone2 = Object.assign({}, bar);
 console.log(clone2.foo);
 
 // What will be the output?
+
+// Try yourself and read the explanation: https://t.me/intspirit/932?comment=1379
