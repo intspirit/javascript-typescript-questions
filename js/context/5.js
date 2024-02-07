@@ -9,3 +9,5 @@ const square = {
 console.log(square.pow(), square.double());
 
 // What will be the output?
+
+// Try yourself and read the explanation: https://t.me/intspirit/936?comment=1387
