@@ -1,14 +1,11 @@
 const obj = {
+  foo: 1,
   get fooValue() {
     return super.foo;
   }
 }
 
-const proto = {};
-
-Object.setPrototypeOf(proto, { foo: 1 });
-
-Object.setPrototypeOf(obj, proto);
+Object.setPrototypeOf(obj, { foo: 2 });
 
 console.log(obj.fooValue);
 
