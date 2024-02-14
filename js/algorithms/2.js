@@ -9,3 +9,5 @@ function foo(i) {
 console.log(foo(0));
 
 // What will be the output?
+
+// Try yourself and read the explanation: https://t.me/intspirit/942?comment=1400
