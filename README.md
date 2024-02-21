@@ -46,6 +46,7 @@ The repository is live and will be regularly updated with new challenges. The re
 ### JavaScript
 
 1. [Arguments](/js/arguments/)
+1. [Algorithms](/js/algorithms/)
 2. [Arrays](/js/arrays/)
 3. [Classes](/js/classes/)
 4. [Context](/js/context/)
@@ -58,7 +59,7 @@ The repository is live and will be regularly updated with new challenges. The re
 11. [Map & WeakMap](/js/Map&WeakMap/)
 12. [Memory usage](/js/memory-usage/)
 13. [Objects](/js/objects/)
-14. [Optimiation](/js/optimization/)
+14. [Performance](/js/performance/)
 15. [Promises](/js/promises)
 16. [Prototypes](/js/prototypes)
 17. [Set](/js/Set)
