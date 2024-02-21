@@ -15,3 +15,5 @@ function foo(n) {
 console.log(foo(500));
 
 // What is the complexity of the algorithm?
+
+// Try yourself and read the explanation: https://t.me/intspirit/944?comment=1411
