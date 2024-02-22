@@ -24,3 +24,5 @@ const maxSum = maxSubarray([-1, 2, 3, 5, -3, 8], 2);
 console.log(maxSum); // 8
 
 // What is the time and space complexity of the algorithm?
+
+// Try yourself and read the explanation: https://t.me/intspirit/948?comment=1420
