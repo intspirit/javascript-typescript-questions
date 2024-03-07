@@ -17,3 +17,5 @@ function pow2(x, n) {
 console.log(pow(2, 4), pow2(2, 4)); // 16, 16
 
 // Which algorithm is more efficient?
+
+// Try yourself and read the explanation: https://t.me/intspirit/954?comment=1433
