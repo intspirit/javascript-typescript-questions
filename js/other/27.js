@@ -8,3 +8,4 @@ console.log(match1?.index, match2?.index, match3?.index);
 
 // What will be the output?
 
+// Try yourself and read the explanation: https://t.me/intspirit/960?comment=1445
